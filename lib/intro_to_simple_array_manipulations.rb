@@ -14,10 +14,12 @@ def pop_with_args (array, number)
   number.times do
     array.pop
   end
+  array
 end
 
 def shift_with_args (array, number)
   number.times do 
     array.pop
   end
+  array
 end
